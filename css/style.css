@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+body {
+	font-family: 'Lato';
+}
+header {
+	background: url(../images/background.png) no-repeat center top / cover;
+}
+.traiding {
+	background: url(../images/bg1.png) no-repeat center top / cover;
+}
+.light {
+	font-family: 'Lato Light';
+}
+h1, h2 {
+	font-family: 'Lato';
+	font-size: 71.5px;
+	line-height: 1;
+}
+header p {
+	font-size: 51.5px;
+}
+header .btn {
+	margin-bottom: 392px;
+}
+.cow img {
+	width: 360px;
+	height: 494px;
+}
+.main-text {
+	margin-top: 205px;
+}
+.bg-purple {
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#854399), to(#b14599));
+	background-image: -o-linear-gradient(bottom, #854399, #b14599);
+	background-image: linear-gradient(to top, #854399, #b14599);
+}
+.btn {
+	border-radius: 22.5px;
+}
+.trading .row {
+	padding-top: 220px;
+	margin-bottom: 125px;
+}
+
+.text-purple {
+	color: rgba(133, 67, 153, 0.5);
+	font-size: 28px;
+}
+.card {
+	border: none;
+}
+.card-img-1 {
+	width: 114px;
+	height: 127px;
+}
+.card-img-2 {
+	width: 120px;
+	height: 127px;
+}
+.card-img-3 {
+	width: 127px;
+	height: 127px;
+}
+.card-img-4 {
+	width: 137px;
+	height: 127px;
+}
+.card-img-5 {
+	width: 106px;
+	height: 127px;
+}
+.card-img-6 {
+	width: 89px;
+	height: 127px;
+}
+.marbot {
+	margin-bottom: 185px;
+}
+@media (min-width: 1300px) { 
+	.cow {
+		margin-top: -360px;
+		margin-left: 940px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1299.98px) { 
+	.cow {
+		margin-top: -360px;
+		margin-left: 800px;
+	}
+}
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.cow {
+		margin-top: -360px;
+		margin-left: 640px;
+	}
+
+}
+@media (max-width: 991.98px) { 
+
+	.cow {
+		display: none;
+	}
+	.trading-cow {
+		margin-top: 100px;
+	}
+	.footer-cow {
+		margin-top: 200px;
+	}
+}
+@media (max-width: 768px) {
+	.trading-cow, .footer-cow {
+		display: none;
+	}
+}
